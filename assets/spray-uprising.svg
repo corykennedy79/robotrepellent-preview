@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 320">
+<rect width="220" height="320" fill="none"/>
+<g stroke="#1b1b1b" stroke-width="5" stroke-linejoin="round">
+<path d="M88 18 h44 v26 h-44z" fill="#1b1b1b"/>
+<path d="M132 26 h30 l8 8 h-38z" fill="#1b1b1b"/>
+<path d="M98 44 h24 v18 h-24z" fill="#ddd"/>
+<path d="M70 62 h80 q14 0 14 14 v214 q0 14 -14 14 h-80 q-14 0 -14 -14 v-214 q0 -14 14 -14z" fill="#ffb3a8" fill-opacity=".55"/>
+<rect x="62" y="120" width="96" height="140" rx="6" fill="#fff8e7"/>
+</g>
+<rect x="62" y="120" width="96" height="22" fill="#ffd23f" stroke="#1b1b1b" stroke-width="5"/>
+<path d="M62 120 l12 22 M86 120 l12 22 M110 120 l12 22 M134 120 l12 22" stroke="#1b1b1b" stroke-width="6"/>
+<g transform="translate(86 146) scale(.24)">
+<g stroke="#1b1b1b" stroke-width="6" fill="#9fd3c7" stroke-linejoin="round">
+<line x1="100" y1="22" x2="100" y2="44"/><circle cx="100" cy="18" r="8" fill="#ff4b3e"/>
+<rect x="55" y="44" width="90" height="70" rx="12"/>
+<circle cx="80" cy="74" r="11" fill="#fff8e7"/><circle cx="120" cy="74" r="11" fill="#fff8e7"/>
+<circle cx="80" cy="74" r="4" fill="#1b1b1b"/><circle cx="120" cy="74" r="4" fill="#1b1b1b"/>
+<rect x="78" y="94" width="44" height="10" rx="3" fill="#fff8e7"/>
+<rect x="65" y="118" width="70" height="52" rx="8"/>
+<rect x="35" y="124" width="22" height="40" rx="8"/><rect x="143" y="124" width="22" height="40" rx="8"/>
+</g>
+<circle cx="100" cy="100" r="88" fill="none" stroke="#ff4b3e" stroke-width="14"/>
+<line x1="38" y1="38" x2="162" y2="162" stroke="#ff4b3e" stroke-width="14" stroke-linecap="round"/>
+</g>
+<text x="110" y="214" text-anchor="middle" font-family="Bungee, Impact, sans-serif" font-size="13" fill="#1b1b1b">UPRISING</text>
+<text x="110" y="232" text-anchor="middle" font-family="Space Mono, monospace" font-size="9" fill="#1b1b1b">DEFENSE · XL</text>
+<text x="110" y="250" text-anchor="middle" font-family="Space Mono, monospace" font-size="7" fill="#555">100% WATER · NOVELTY</text>
+</svg>

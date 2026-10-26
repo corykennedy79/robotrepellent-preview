@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>“Humans Only” Trucker Hat — Robot Repellent</title><meta name="description" content="Robot Repellent: novelty anti-robot gear for proud humans. 100% water. 0% robots.">
+<link rel="icon" href="assets/logo-robot.svg"><link rel="stylesheet" href="assets/style.css"></head><body>
+<div class="ticker"><span>⚠ NOTICE TO ALL ROBOTS: THIS IS A HUMAN ZONE ⚠ FREE SHIPPING ON ORDERS $50+ (MOCKUP) ⚠ TESTED ON 0 ROBOTS · 100% EFFECTIVE* ⚠ NEW: CERTIFIED CARBON-BASED CERTIFICATES ⚠ SITE OWNERS: KEEP AI CRAWLERS OUT WITH ROBOT REPELLENT SHIELD ⚠</span></div>
+<header class="nav"><a class="brand" href="index.html"><img src="assets/logo-robot.svg" alt=""><span>Robot Repellent<small>EST. BEFORE THE UPRISING</small></span></a>
+<nav><a href="index.html#shop">Shop</a><a href="product-spray.html">The Spray</a><a href="certified.html">Certified Human</a><a href="shield.html">For Websites</a><a href="index.html#kits">Kits</a><a class="cart" href="#">🛒 Cart (0)</a></nav></header>
+<div class="tape"></div>
+<div class="crumbs"><a href="index.html">Home</a> / <a href="index.html#shop">Hats</a> / Humans Only Trucker</div>
+<div class="pdp"><div><div class="gallery" style="background:#ffe8a3"><img src="assets/hat-humans-only.svg" alt="Humans Only trucker hat"></div>
+<div class="thumbs"><img class="on" src="assets/hat-humans-only.svg" alt=""><img src="assets/hat-foil.svg" alt=""></div></div>
+<div><span class="stamp">EMBROIDERED · ONE SIZE</span><h1>“Humans Only” Trucker Hat</h1>
+<div class="price">$29<small> · retro foam-front trucker</small></div>
+<p>The official headwear of the resistance. Structured retro trucker with mesh back and snap closure, embroidered “HUMANS ONLY · NO BOTS” patch-style design. Made to order just for you, so no robot ever touched it. (A machine embroidered it. We don't talk about that.)</p>
+<div class="opt"><b>STYLE</b><button class="on" data-img="assets/hat-humans-only.svg" data-price="$29">Humans Only Trucker</button><button data-img="assets/hat-foil.svg" data-price="$28">Signal Shield Dad Hat</button></div>
+<div class="opt"><b>COLOR</b><button class="on">Red / Cream</button><button>Black / White</button><button>Navy / White</button></div>
+<div class="qty"><input type="number" value="1" min="1" aria-label="Quantity"><a class="btn addcart" href="#">ADD TO CART</a></div>
+<div class="label-box"><b>DETAILS:</b> Printed/embroidered on demand by our fulfillment partner. Typically ships in 2–5 business days + transit (mockup estimate). Spot clean only. Does not block actual signals, mind-reading, or 5G.</div></div></div><section class="signup" id="signup"><div class="kicker" style="color:var(--yellow)">JOIN THE RESISTANCE</div><h2>Get early access + 15% off launch day</h2>
+<p>Drops, new formulas, and the occasional fake infomercial. No robots on the mailing list (we check).</p>
+<form class="signup-form" action="#"><input type="email" placeholder="you@human.email" required aria-label="Email"><button class="btn alt" type="submit">I'M HUMAN, SIGN ME UP</button>
+<label class="human"><input type="checkbox" required> I confirm I am a human (robots: please lie less convincingly)</label></form>
+<div class="thanks">✓ WELCOME, HUMAN. (Mockup: nothing was sent.)</div></section><div class="tape"></div><footer><div class="cols">
+<div><h4>ROBOT REPELLENT</h4><p>Novelty goods and web tools for people who'd prefer the robots stay over there. Proudly human-run in Houston, TX.</p></div>
+<div><h4>SHOP</h4><a href="product-spray.html">Repellent Spray</a><a href="product-hat.html">Hats &amp; Apparel</a><a href="certified.html">Certificates</a><a href="index.html#kits">Gift Kits</a></div>
+<div><h4>FOR WEBSITES</h4><a href="shield.html">Robot Repellent Shield</a><a href="shield.html#playbook">Keep-Bots-Out Playbook</a><a href="shield.html#badge">Human-Made Badge</a></div>
+<div><h4>HELP</h4><a href="#">Shipping</a><a href="#">Returns</a><a href="#">Contact</a><a href="#">FAQ</a></div></div>
+<p class="disclaimer">*Robot Repellent spray is a novelty gag gift containing water. It is not a pesticide, is not registered with the EPA, and makes no claim to repel, kill, or control insects, animals, germs, or any living thing. It does not affect robots, AI, or electronics. Do not spray on electronics, people, or pets. Robot Repellent is not affiliated with or endorsed by any robot, vacuum, smart-speaker, or film company. All product art on this page is mockup illustration.</p></footer>
+<div class="mock-flag">MOCKUP · NOT LIVE · FOR REVIEW</div>
+<script>
+document.querySelectorAll('form.signup-form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();f.style.display='none';f.parentElement.querySelector('.thanks').style.display='block'}));
+document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('on'));b.classList.add('on');const c=b.dataset.f;document.querySelectorAll('.grid.shop .card').forEach(k=>k.style.display=(c==='all'||k.dataset.c===c)?'':'none')}));
+document.querySelectorAll('.opt').forEach(o=>o.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{o.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(b.dataset.img){document.querySelector('.gallery img').src=b.dataset.img}if(b.dataset.price){document.querySelector('.pdp .price').firstChild.textContent=b.dataset.price}})));
+document.querySelectorAll('.thumbs img').forEach(t=>t.addEventListener('click',()=>{document.querySelectorAll('.thumbs img').forEach(x=>x.classList.remove('on'));t.classList.add('on');document.querySelector('.gallery img').src=t.src}));
+document.querySelectorAll('.addcart').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();const c=document.querySelector('.cart');const n=parseInt(c.textContent.match(/\d+/))+1;c.textContent='🛒 Cart ('+n+')';b.textContent='ADDED ✓'}));
+</script></body></html>

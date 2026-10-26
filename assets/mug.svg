@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220">
+<g stroke="#1b1b1b" stroke-width="6"><path d="M170 80 q50 0 50 40 q0 40 -50 40" fill="none"/>
+<rect x="40" y="40" width="135" height="150" rx="12" fill="#fff8e7"/></g>
+<rect x="40" y="70" width="135" height="20" fill="#ffd23f"/><path d="M50 70 l10 20 M75 70 l10 20 M100 70 l10 20 M125 70 l10 20 M150 70 l10 20" stroke="#1b1b1b" stroke-width="5"/>
+<text x="107" y="125" text-anchor="middle" font-family="Bungee, Impact, sans-serif" font-size="14" fill="#1b1b1b">I'M NOT A</text>
+<text x="107" y="145" text-anchor="middle" font-family="Bungee, Impact, sans-serif" font-size="14" fill="#ff4b3e">ROBOT</text>
+<text x="107" y="165" text-anchor="middle" font-family="Space Mono, monospace" font-size="8" fill="#1b1b1b">☐ I'M NOT A ROBOT ☑</text></svg>

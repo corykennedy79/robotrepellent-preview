@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 220">
+<g stroke="#1b1b1b" stroke-width="5" stroke-linejoin="round">
+<path d="M30 90 l110 -40 l110 40 l-110 40z" fill="#ffd23f"/>
+<path d="M30 90 v80 l110 40 v-80z" fill="#ff4b3e"/><path d="M250 90 v80 l-110 40 v-80z" fill="#d63a2f"/></g>
+<text x="80" y="160" text-anchor="middle" font-family="Bungee, Impact, sans-serif" font-size="12" fill="#fff8e7" transform="rotate(20 80 160)">SURVIVAL</text>
+<text x="200" y="160" text-anchor="middle" font-family="Bungee, Impact, sans-serif" font-size="14" fill="#fff8e7" transform="rotate(-20 200 160)">KIT</text>
+<text x="140" y="95" text-anchor="middle" font-family="Space Mono, monospace" font-size="10" fill="#1b1b1b">ANTI-ROBOT</text></svg>

@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Certified Carbon-Based — Robot Repellent</title><meta name="description" content="Robot Repellent: novelty anti-robot gear for proud humans. 100% water. 0% robots.">
+<link rel="icon" href="assets/logo-robot.svg"><link rel="stylesheet" href="assets/style.css"></head><body>
+<div class="ticker"><span>⚠ NOTICE TO ALL ROBOTS: THIS IS A HUMAN ZONE ⚠ FREE SHIPPING ON ORDERS $50+ (MOCKUP) ⚠ TESTED ON 0 ROBOTS · 100% EFFECTIVE* ⚠ NEW: CERTIFIED CARBON-BASED CERTIFICATES ⚠ SITE OWNERS: KEEP AI CRAWLERS OUT WITH ROBOT REPELLENT SHIELD ⚠</span></div>
+<header class="nav"><a class="brand" href="index.html"><img src="assets/logo-robot.svg" alt=""><span>Robot Repellent<small>EST. BEFORE THE UPRISING</small></span></a>
+<nav><a href="index.html#shop">Shop</a><a href="product-spray.html">The Spray</a><a href="certified.html">Certified Human</a><a href="shield.html">For Websites</a><a href="index.html#kits">Kits</a><a class="cart" href="#">🛒 Cart (0)</a></nav></header>
+<div class="tape"></div>
+<section class="hero"><div><span class="stamp">OFFICIAL-ISH DOCUMENT</span><h1>Get <em>Certified</em><br>Carbon-Based</h1>
+<p class="lead">Take the 3-question Humanity Exam, enter your name, and get a frame-worthy certificate of humanity. Instant PDF, or a printed version shipped to your door.</p>
+<div class="quiz"><b style="font-family:'Space Mono',monospace">HUMANITY EXAM · Q2 of 3</b><p>A coworker says “circle back.” You:</p>
+<label><input type="radio" name="q2"> Sigh audibly</label><label><input type="radio" name="q2"> Nod and immediately forget</label><label><input type="radio" name="q2"> Execute CIRCLE_BACK.exe</label></div>
+<div class="cta"><a class="btn addcart" href="#">INSTANT PDF — $6</a><a class="btn alt addcart" href="#">PRINTED A4 — $19</a></div></div>
+<div class="hero-art"><img src="assets/certificate.svg" alt="" style="width:100%;max-width:520px;transform:rotate(3deg);filter:drop-shadow(10px 10px 0 var(--ink))"></div></section>
+<section class="band"><div class="two"><div><h2>Perfect for</h2><ul class="checklist"><li>Office white-elephant exchanges</li><li>The friend who answers texts in 0.2 seconds</li><li>Grandparents who “don't trust the computer”</li><li>Teams that ship 100% human-written work</li></ul></div>
+<div><h2>Team &amp; business packs</h2><p>Bulk certificates and a matching “Human-Made” web badge for agencies, writers, and artists who want to show their work wasn't machine-made. <b>Coming with Robot Repellent Shield.</b></p><a class="btn dark" href="shield.html">SEE THE BADGE</a></div></div></section><section class="signup" id="signup"><div class="kicker" style="color:var(--yellow)">JOIN THE RESISTANCE</div><h2>Get early access + 15% off launch day</h2>
+<p>Drops, new formulas, and the occasional fake infomercial. No robots on the mailing list (we check).</p>
+<form class="signup-form" action="#"><input type="email" placeholder="you@human.email" required aria-label="Email"><button class="btn alt" type="submit">I'M HUMAN, SIGN ME UP</button>
+<label class="human"><input type="checkbox" required> I confirm I am a human (robots: please lie less convincingly)</label></form>
+<div class="thanks">✓ WELCOME, HUMAN. (Mockup: nothing was sent.)</div></section><div class="tape"></div><footer><div class="cols">
+<div><h4>ROBOT REPELLENT</h4><p>Novelty goods and web tools for people who'd prefer the robots stay over there. Proudly human-run in Houston, TX.</p></div>
+<div><h4>SHOP</h4><a href="product-spray.html">Repellent Spray</a><a href="product-hat.html">Hats &amp; Apparel</a><a href="certified.html">Certificates</a><a href="index.html#kits">Gift Kits</a></div>
+<div><h4>FOR WEBSITES</h4><a href="shield.html">Robot Repellent Shield</a><a href="shield.html#playbook">Keep-Bots-Out Playbook</a><a href="shield.html#badge">Human-Made Badge</a></div>
+<div><h4>HELP</h4><a href="#">Shipping</a><a href="#">Returns</a><a href="#">Contact</a><a href="#">FAQ</a></div></div>
+<p class="disclaimer">*Robot Repellent spray is a novelty gag gift containing water. It is not a pesticide, is not registered with the EPA, and makes no claim to repel, kill, or control insects, animals, germs, or any living thing. It does not affect robots, AI, or electronics. Do not spray on electronics, people, or pets. Robot Repellent is not affiliated with or endorsed by any robot, vacuum, smart-speaker, or film company. All product art on this page is mockup illustration.</p></footer>
+<div class="mock-flag">MOCKUP · NOT LIVE · FOR REVIEW</div>
+<script>
+document.querySelectorAll('form.signup-form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();f.style.display='none';f.parentElement.querySelector('.thanks').style.display='block'}));
+document.querySelectorAll('.filters button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('on'));b.classList.add('on');const c=b.dataset.f;document.querySelectorAll('.grid.shop .card').forEach(k=>k.style.display=(c==='all'||k.dataset.c===c)?'':'none')}));
+document.querySelectorAll('.opt').forEach(o=>o.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{o.querySelectorAll('button').forEach(x=>x.classList.remove('on'));b.classList.add('on');if(b.dataset.img){document.querySelector('.gallery img').src=b.dataset.img}if(b.dataset.price){document.querySelector('.pdp .price').firstChild.textContent=b.dataset.price}})));
+document.querySelectorAll('.thumbs img').forEach(t=>t.addEventListener('click',()=>{document.querySelectorAll('.thumbs img').forEach(x=>x.classList.remove('on'));t.classList.add('on');document.querySelector('.gallery img').src=t.src}));
+document.querySelectorAll('.addcart').forEach(b=>b.addEventListener('click',e=>{e.preventDefault();const c=document.querySelector('.cart');const n=parseInt(c.textContent.match(/\d+/))+1;c.textContent='🛒 Cart ('+n+')';b.textContent='ADDED ✓'}));
+</script></body></html>
